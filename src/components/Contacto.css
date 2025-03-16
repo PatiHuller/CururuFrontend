@@ -1,0 +1,111 @@
+.ContainerGenContacto {
+    background-color: #F1D28F;
+    margin-top: -1rem;
+    min-height: 60vh;
+}
+
+.formYubi {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 15px;
+
+
+}
+
+.cabecera {
+    margin-top: 1.6rem;
+    text-align: center;
+    padding: 6rem 5rem 1rem;
+}
+
+.cabecera h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #13373b;
+    padding: 1.2rem 0;
+    background-color: #fde4af;
+    border-radius: .6rem;
+    margin: 0 2rem;
+}
+
+.ubicacion {
+    padding: 1rem;
+    text-align: center;
+    background-color: #FDE4AF;
+    border-radius: 2rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.ubicacion h3 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #13373b;
+}
+
+.redesSociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.redesSociales div:hover {
+    font-size: 3.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.contenedorredesflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 401px) {
+    .formYubi {
+        padding: .5rem;
+    }
+
+    .contenedorredesflex {
+        padding-bottom: 10px;
+    }
+    .redesSociales {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .formYubi {
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem;
+        margin-top: -35px;
+        margin-bottom: -45px;
+    }
+    .ubicacion {
+        max-width: 60%;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .formYubi {
+        padding: 6rem 12rem;
+        margin-top: -65px;
+        margin-bottom: -79px;
+    }
+    .ubicacion {
+        max-width: 50%;
+    }
+}

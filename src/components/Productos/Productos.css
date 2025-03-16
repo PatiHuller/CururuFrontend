@@ -1,0 +1,135 @@
+/* Estilo general para el contenedor principal */
+.contenedorGeneralProductos {
+  background-color: #f1d28f;
+  padding-top: 6.6rem;
+  padding-bottom: 2.3rem;
+}
+
+.backGround {
+  padding-top: 2rem;
+  background-color: #FDE4AF;
+  padding: 2rem;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding-bottom: 20px;
+}
+
+
+.tab-content {
+  background-color: #FDE4AF !important;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Estilo para las pestañas (Tabs) */
+.nav-tabs {
+  justify-content: center;
+  border-bottom: none;
+  background-color: #497D56 !important;
+  border-radius: 10px;
+}
+
+.nav-tabs .nav-link {
+  background-color: #E4572E;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #e9f5ec;
+  color: #30646B;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #497D56;
+  color: #fff;
+  border: 1px solid #497D56;
+}
+
+/* Estilo para las tarjetas (Cards) */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Ampliar al pasar el ratón */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más prominente */
+}
+
+/* Imagen del producto */
+.card-img-top {
+  height: 200px; /* Altura fija */
+  object-fit: cover; /* Mantener proporción de la imagen */
+  border-bottom: 2px solid #e9f5ec; /* Línea de separación */
+}
+
+/* Cuerpo de la tarjeta */
+.card-body {
+  text-align: center;
+  background-color: #497D56;
+}
+
+.card-title {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #ffffff !important;
+  margin-bottom: 1rem;
+}
+
+/* Botón "Comprar" */
+.btnComprar {
+  background-color: #E4572E;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btnComprar:hover {
+  background-color: #ffffff;
+  color: #E4572E;
+  border: 1px solid #E4572E;
+}
+
+/* Botón "Agregar al Carrito" */
+.btnAgregar {
+  background-color: #E4572E;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btnAgregar:hover {
+  background-color: #ffffff;
+  color: #E4572E;
+  border: 1px solid #E4572E;
+}
+
+/* Ajustes para la grilla de productos */
+.d-flex.flex-wrap {
+  gap: 2rem;
+}

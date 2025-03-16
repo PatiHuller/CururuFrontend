@@ -1,0 +1,23 @@
+/* Archivo: Admin.css */
+/* Tabs */
+
+.adminMain{
+    background-color: burlywood;
+
+}
+
+.contenedorgeneralAdmin{
+    background-color: burlywood;
+    padding-top: 4rem !important;
+}
+
+.eliminarProdBoton{
+    margin-top: -15px;
+}
+
+
+.nav-tabs .nav-link.active{
+    background-color: #E4572E;
+    color: white !important;
+    border: 1px solid  white;
+}

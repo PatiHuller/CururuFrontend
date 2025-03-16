@@ -1,0 +1,64 @@
+/* Espaciado para los botones en la parte superior */
+.my-4 {
+    margin-bottom: 2rem;
+}
+
+.adminMain{
+    padding-top: 6rem;
+}
+
+button {
+    background-color: #E4572E !important;
+    color: #ffffff;
+    border: 1px solid #ffffff !important;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #ffffff !important;
+    color: #E4572E !important;
+    border: 1px solid #E4572E !important;
+
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card img {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.row.g-4 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}

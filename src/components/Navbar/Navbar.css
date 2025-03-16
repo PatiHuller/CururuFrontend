@@ -1,0 +1,210 @@
+/* --- General Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --- Navbar Container --- */
+.containerNavbar {
+    width: 100%;
+    background: #497D56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 90;
+    padding: 0.8rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Logo --- */
+.brand img {
+    max-height: 2.5rem;
+}
+
+/* --- Menu Hamburguer (Mobile) --- */
+.menuIcon {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* --- Menu para Mobile --- */
+.navBar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
+    background-color: #30646B;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navBar.show {
+    display: flex;
+}
+
+.navLinks {
+    list-style: none;
+    padding: 0;
+}
+
+.navLinks li {
+    padding: 0.8rem 0;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navLinks li:hover a {
+    color: #fde4af;
+}
+
+/* --- Carrito --- */
+.carritoNavbar {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.carritoNavbar:hover {
+    color: #fde4af;
+}
+
+.carritoTotalNav {
+    font-size: 0.9rem;
+    color: #ff8a67;
+    font-weight: 700;
+}
+
+/* --- Botões de Login/Registro --- */
+.navButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.navButton {
+    background-color: #E4572E;
+    color: white;
+    border: 1px solid white;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    width: 80%;
+    text-align: center;
+}
+
+.navButton:hover {
+    background-color: white;
+    color: #E4572E;
+    border: 1px solid #E4572E;
+}
+
+/* --- Responsividade: 401px até 901px --- */
+@media screen and (min-width: 401px) and (max-width: 900px) {
+    .menuIcon {
+        display: block;
+    }
+
+    .navBar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 4.5rem;
+        left: 0;
+        width: 100%;
+        background-color: #30646B;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .navBar.show {
+        display: flex;
+    }
+
+    .navLinks {
+        flex-direction: column;
+    }
+
+    .navButtons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        margin-left: auto;
+    }
+
+    .navButton {
+        width: auto;
+    }
+}
+
+/* --- Telas maiores que 901px --- */
+@media screen and (min-width: 901px) {
+    .menuIcon {
+        display: none;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .containerNavbar {
+        max-height: 75px;
+    }
+
+    .carritoNavbar {
+        padding-top: 21px;
+    }
+
+    .navLinks {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-weight: bold;
+    }
+
+    .navLinks li {
+        align-content: center;
+        padding-top: 30px;
+    }
+
+    .navLinks a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .navButtons {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .navButton {
+        width: auto;
+    }
+}
