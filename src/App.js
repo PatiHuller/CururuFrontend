@@ -42,6 +42,8 @@ function App() {
       )
     : productos;
 
+    
+
   return (
     <UserProvider>
       <BrowserRouter>
