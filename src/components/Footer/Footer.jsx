@@ -14,19 +14,19 @@ const Footer = () => {
                     <div className="sec atajos">
                         <h2>Atajos</h2>
                         <ul>
-                            <li><a href="#">Quienes Somos</a></li>
-                            <li><a href="#">Términos & condiciones</a></li>
-                            <li><a href="#">Política de privacidad</a></li>
-                            <li><a href="#">Contacto</a></li>
+                            <li><a href="/">Quienes Somos</a></li>
+                            <li><a href="/">Términos & condiciones</a></li>
+                            <li><a href="/">Política de privacidad</a></li>
+                            <li><a href="/">Contacto</a></li>
                         </ul>
                     </div>
                     <div className="sec atajos">
                         <h2>Productos</h2>
                         <ul>
-                            <li><a href="#">Muebles personalizados</a></li>
-                            <li><a href="#">Muebles</a></li>
-                            <li><a href="#">Juegos Montessori</a></li>
-                            <li><a href="#">Por mayor</a></li>
+                            <li><a href="/">Muebles personalizados</a></li>
+                            <li><a href="/">Muebles</a></li>
+                            <li><a href="/">Juegos Montessori</a></li>
+                            <li><a href="/">Por mayor</a></li>
                         </ul>
                     </div>
                     <div className="sec contacto">
@@ -52,10 +52,10 @@ const Footer = () => {
                     <div className="sec QuienesSomos">
                         <h2>Seguinos</h2>
                         <ul className="sci">
-                            <li><a href="#"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a></li>
+                            <li><a href="/"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
+                            <li><a href="/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                            <li><a href="/"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                            <li><a href="/"><FontAwesomeIcon icon={faWhatsapp} /></a></li>
                         </ul>
 
 
