@@ -79,8 +79,7 @@ const FooterButton = () => {
 
             if (footer && button) {
                 const footerTop = footer.getBoundingClientRect().top;
-                const buttonHeight = button.offsetHeight; // Variável usada para cálculo
-
+                
                 if (footerTop < window.innerHeight) {
                     // Ajusta a posição do botão para que se detenha ao chegar ao footer
                     setButtonBottom(Math.max(20, window.innerHeight - footerTop + 20) + 'px');
